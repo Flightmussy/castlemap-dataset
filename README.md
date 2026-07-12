@@ -1,5 +1,7 @@
 # Castles of the World — 2,400 castles, fortresses & palaces
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21322360.svg)](https://doi.org/10.5281/zenodo.21322360)
+
 A curated, hand-checked dataset of the world's **2,400 great castles, fortresses, palaces and ruins across 131 countries** — every landmark verified to have exact coordinates, a real Wikimedia Commons photo and an English Wikipedia article.
 
 This is the exact dataset behind **[Castlemap](https://thecastlemap.com)**, a free interactive night-map of all 2,400 landmarks.
@@ -35,6 +37,13 @@ This is the exact dataset behind **[Castlemap](https://thecastlemap.com)**, a fr
 ## Provenance & method
 
 Curated from **[Wikidata](https://www.wikidata.org)** (CC0). Candidates are filtered to significant, well-documented sites: exact coordinates required, a real Commons photo required, an English Wikipedia article required; categories normalized; countries normalized; duplicates and phantom entries removed by hand. The dataset refreshes from Wikidata — spot an error or a missing castle? Improve its Wikidata entry and it flows into the next release.
+
+## Mirrors & citation
+
+- GitHub: https://github.com/Flightmussy/castlemap-dataset
+- Hugging Face: https://huggingface.co/datasets/Flightmussy/castles-of-the-world
+- Kaggle: https://www.kaggle.com/datasets/albanius/castles-of-the-world-2400-castles-and-palaces
+- **Citable DOI (Zenodo): [10.5281/zenodo.21322360](https://doi.org/10.5281/zenodo.21322360)**
 
 ## License
 
