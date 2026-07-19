@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21322359.svg)](https://doi.org/10.5281/zenodo.21322359)
 
-A curated, hand-checked dataset of the world's **2,435 great castles, fortresses, palaces and ruins across 130 countries** — every landmark verified to have exact coordinates, a real Wikimedia Commons photo and an English Wikipedia article.
+A curated, hand-checked dataset of the world's **2,435 great castles, fortresses, palaces and ruins across 129 countries** — every landmark verified to have exact coordinates, a real Wikimedia Commons photo and an English Wikipedia article.
 
 This is the exact dataset behind **[Castlemap](https://thecastlemap.com)**, a free interactive night-map of all 2,435 landmarks.
 
@@ -46,6 +46,8 @@ Curated from **[Wikidata](https://www.wikidata.org)** (CC0). Candidates are filt
 - **Citable DOI (Zenodo): [10.5281/zenodo.21322359](https://doi.org/10.5281/zenodo.21322359)**
 
 ## Releases
+
+- **v1.2.0** (2026-07-19) — 27 corrections. 26 founding years that were really renovation or heritage-designation dates in Wikidata (the Tang-dynasty Daming Palace claimed 2010 → now 634; Chapultepec 1944 → 1785; Sanok 2010 → 1523; a cluster of Czech castles stamped with their 2000 national-monument decree…) were fixed to the documented construction start, and Erebuni Fortress moved from the defunct historical state "Urartu" to Armenia — the dataset now spans 129 countries. These years power the new oldest-castles ranking: https://thecastlemap.com/castles/oldest/
 
 - **v1.1.0** (2026-07-19) — 2,400 → 2,435 landmarks (4 Norwegian fortresses and 9 Indian landmarks added on reader request, plus 22 further ruins; the phantom "French Third Republic" country is gone — the Imperial City of Huế now sits under Vietnam, so 130 countries). 225 category corrections: an unambiguous display name now beats Wikidata's often-sloppy P31 typing (83 fixes — Kufstein Fortress is no longer a "castle"), and *ruin* is now a state that wins over the building type, read from each monument's English Wikipedia lead (142 fixes — Heidelberg, Poenari, Tantallon, the Slovak hilltop castles). Category counts: 1,031 castles · 427 fortresses · 716 palaces · 261 ruins.
 - **v1.0.0** (2026-07-12) — first release: 2,400 landmarks across 131 countries.
