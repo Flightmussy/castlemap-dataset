@@ -1,10 +1,10 @@
-# Castles of the World — 2,400 castles, fortresses & palaces
+# Castles of the World — 2,435 castles, fortresses & palaces
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21322360.svg)](https://doi.org/10.5281/zenodo.21322360)
 
-A curated, hand-checked dataset of the world's **2,400 great castles, fortresses, palaces and ruins across 131 countries** — every landmark verified to have exact coordinates, a real Wikimedia Commons photo and an English Wikipedia article.
+A curated, hand-checked dataset of the world's **2,435 great castles, fortresses, palaces and ruins across 130 countries** — every landmark verified to have exact coordinates, a real Wikimedia Commons photo and an English Wikipedia article.
 
-This is the exact dataset behind **[Castlemap](https://thecastlemap.com)**, a free interactive night-map of all 2,400 landmarks.
+This is the exact dataset behind **[Castlemap](https://thecastlemap.com)**, a free interactive night-map of all 2,435 landmarks.
 
 - 🗺️ Interactive map: https://thecastlemap.com
 - 📄 Dataset page & downloads: https://thecastlemap.com/data/
@@ -15,7 +15,7 @@ This is the exact dataset behind **[Castlemap](https://thecastlemap.com)**, a fr
 
 | File | Format | Contents |
 |---|---|---|
-| `castles.geojson` | GeoJSON FeatureCollection | 2,400 Point features with all properties |
+| `castles.geojson` | GeoJSON FeatureCollection | 2,435 Point features with all properties |
 | `castles.csv` | CSV (UTF-8, header row) | Same records, flat |
 
 ## Fields
@@ -32,7 +32,7 @@ This is the exact dataset behind **[Castlemap](https://thecastlemap.com)**, a fr
 | `image` | Wikimedia Commons photo URL |
 | `sitelinks` | Number of Wikipedia language editions covering the landmark |
 | `pageviews` | English Wikipedia pageviews (trailing 365 days) |
-| `fame_rank` | Global fame rank 1…2400 — a blend of Wikipedia language coverage (`sitelinks`) and readership (`pageviews`). Rank 1 = Palace of Versailles. [Methodology](https://thecastlemap.com/castles/ranked/) |
+| `fame_rank` | Global fame rank 1…2435 — a blend of Wikipedia language coverage (`sitelinks`) and readership (`pageviews`). Rank 1 = Palace of Versailles. [Methodology](https://thecastlemap.com/castles/ranked/) |
 
 ## Provenance & method
 
@@ -44,6 +44,11 @@ Curated from **[Wikidata](https://www.wikidata.org)** (CC0). Candidates are filt
 - Hugging Face: https://huggingface.co/datasets/Flightmussy/castles-of-the-world
 - Kaggle: https://www.kaggle.com/datasets/albanius/castles-of-the-world-2400-castles-and-palaces
 - **Citable DOI (Zenodo): [10.5281/zenodo.21322360](https://doi.org/10.5281/zenodo.21322360)**
+
+## Releases
+
+- **v1.1.0** (2026-07-19) — 2,400 → 2,435 landmarks (4 Norwegian fortresses and 9 Indian landmarks added on reader request, plus 22 further ruins; the phantom "French Third Republic" country is gone — the Imperial City of Huế now sits under Vietnam, so 130 countries). 225 category corrections: an unambiguous display name now beats Wikidata's often-sloppy P31 typing (83 fixes — Kufstein Fortress is no longer a "castle"), and *ruin* is now a state that wins over the building type, read from each monument's English Wikipedia lead (142 fixes — Heidelberg, Poenari, Tantallon, the Slovak hilltop castles). Category counts: 1,031 castles · 427 fortresses · 716 palaces · 261 ruins.
+- **v1.0.0** (2026-07-12) — first release: 2,400 landmarks across 131 countries.
 
 ## License
 
