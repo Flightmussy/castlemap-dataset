@@ -8,8 +8,9 @@ on:
     paths:
       - .github/workflows/build-gpkg.yml
 
+# Read only: the job builds an artifact and writes nothing back to the repository.
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   build:
@@ -18,6 +19,8 @@ jobs:
       - name: Checkout
         # checkout v6.1.0
         uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          persist-credentials: false
 
       - name: Install GDAL
         run: |
